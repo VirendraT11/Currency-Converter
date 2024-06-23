@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const closeModalButtons = document.querySelectorAll('.close');
   const loginForm = document.getElementById('loginForm');
   const registerForm = document.getElementById('registerForm');
-  const API_KEY = 'aab29d2bab8f30f6137b235d';
-  const NEWS_API_KEY = '79a906ec79fd490eb42ae0ad9c35c57f'; // Replace with your news API key
+  const API_KEY = 'YOUR_CUURENCY_EXCHANGE_API_KEY';
+  const NEWS_API_KEY = 'YOUR_NEWS_API_KEY'; // Replace with your news API key
 
   let userToken = '';
 
